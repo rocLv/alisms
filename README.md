@@ -23,9 +23,10 @@ Or install it yourself as:
 ## Usage
 
 ### Without Rails
+```ruby
 Alisms.appcode = 'YOUR APP CODE'
 Alisms::Client.send_sms(param_string).to(rec_num).with_template(template_code).by(sign_name)
-
+```
 
 ### Within Rails
 
