@@ -22,7 +22,28 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Without Rails
+Alisms.appcode = 'YOUR APP CODE'
+Alisms::Client.send_sms(param_string).to(rec_num).with_template(template_code).by(sign_name)
+
+
+### Within Rails
+
+```terminal
+$ touch config/initialize/alisms.rb
+
+```
+
+```ruby
+Alisms.configure do |config|
+  config.appcode = 'YOUR APP CODE'
+end
+
+```
+Then, you could 
+```ruby
+Alisms::Client.send_sms(param_string).to(rec_num).with_template(template_code).by(sign_name)
+```
 
 ## Development
 
