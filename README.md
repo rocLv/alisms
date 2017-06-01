@@ -1,8 +1,6 @@
 # Alisms
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/alisms`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem is for [aliyun sms service](https://market.aliyun.com/products/57002003/cmapi011900.html?spm=5176.730005-57002003.468004.2.pKQMdW).
 
 ## Installation
 
